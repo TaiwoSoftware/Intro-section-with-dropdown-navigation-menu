@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    display: flex;
+}
+
+.logo {
+    margin-right: 3rem;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 2rem;
+}
+
+.nav-image{
+    margin-left:.5rem;
+}
+
+body{
+    padding: 2rem;
+}
+
+
+.buttonContainer{ 
+    margin-left: 30rem;
+}
+
+button {
+    margin-right: 2rem;
+}
+
+.logIn{
+    background: transparent;
+    border: none;
+    color: hsl(0, 0%, 41%);
+}
