@@ -1,8 +1,24 @@
-# React + Vite
+# Taiwo Akerele Soluton
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Design preview for the Intro section with dropdown navigation coding challenge](./src/component/design/desktop-preview.jpg)
 
-Currently, two official plugins are available:
+## Project! 👋
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project was quite challenging but was murdered
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding by teaching me ndropdown menu
+
+
+
+## The challenge
+
+Helped me understand dropdown menus
+
+
+
+
+
+
+
+
+**I enjoyed it!** 🚀
