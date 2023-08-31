@@ -1,9 +1,11 @@
-import Navigation from "./Navigation"
-import Logo from './Logo';
+import Navigation from "./Navigation";
+import Logo from "./Logo";
 function Nav() {
-    return <nav>
-    <Logo />
-    <Navigation />
+  return (
+    <nav>
+      <Logo />
+      <Navigation />
     </nav>
+  );
 }
-export default Nav
+export default Nav;

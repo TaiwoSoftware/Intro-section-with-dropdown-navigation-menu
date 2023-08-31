@@ -17,6 +17,8 @@ header{
 
 nav{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo {
@@ -30,6 +32,7 @@ nav ul li{
 
 .nav-image{
     margin-left:.5rem;
+    cursor: pointer;
 }
 
 body{
@@ -40,6 +43,7 @@ body{
 
 .buttonContainer{ 
     margin-left: 25rem;
+    position: relative;
 }
 
 button {
@@ -49,7 +53,7 @@ button {
 .register{
     background:transparent ;
     border: 1px solid hsl(0, 0%, 41%);
-    padding:5px 1rem;
+    padding:10px 1.5rem;
     border-radius: 5px;
 }
 
@@ -57,6 +61,9 @@ button {
     background: transparent;
     border: none;
     color: hsl(0, 0%, 41%);
+    position: absolute;
+    left:-4rem;
+    top: .5rem;
 }
 
 .navContainer{
@@ -66,8 +73,8 @@ button {
     width: 11%;
     position: absolute;
     left: 8rem;
-    top: 4rem;
     display: none;
+    top: 4rem;
     box-shadow: 2rem 2rem 3rem rgb(231, 226, 226);
 }
 
@@ -85,11 +92,11 @@ button {
     left: 18rem;
     background-color: white;
     padding: 1rem;
-    display: none;
     border-radius: .5rem;
     width: 8%;
     position: absolute;
     top: 4rem;
+    display: none;
     box-shadow: 2rem 2rem 3rem rgb(231, 226, 226);
 }
 
@@ -101,7 +108,7 @@ main{
     padding: 5rem;
 }
 main h1{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .header-span{
@@ -111,12 +118,13 @@ main h1{
 main p{
     margin-top: 4rem;
     color: hsl(0, 0%, 41%);
+    font-size: 1.5rem;
 }
 
 main img{
-    width: 20%;
+    width: 30%;
     position: absolute;
-    left: 55rem;
+    left: 45rem;
     top: 10rem;
 }
 
@@ -124,4 +132,11 @@ main button{
     background-color: black;
     color: white;
     margin-top: 3rem;
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+footer img{
+    margin-left: 4rem;
 }
