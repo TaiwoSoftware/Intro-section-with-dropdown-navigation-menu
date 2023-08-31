@@ -1,9 +1,9 @@
 import Nav from './Nav'
-import Hamburger from './Hamburger';
+import ButtonContainer from './ButtonContainer'
 function Header() {
     return <header>
     <Nav />
-    <Hamburger />
+    <ButtonContainer />
   </header>
 }
 export default Header

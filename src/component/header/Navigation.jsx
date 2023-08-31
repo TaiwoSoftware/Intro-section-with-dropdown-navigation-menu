@@ -12,11 +12,9 @@ function Navigation() {
       </li>
       <li>
         Careers
-        <img src={navImage} alt="nav-image" className="nav-image" />
       </li>
       <li>
         About
-        <img src={navImage} alt="nav-image" className="nav-image" />
       </li>
     </ul>
   );
