@@ -2,12 +2,12 @@ import React, {useState} from "react";
 import navImage from "../images/icon-arrow-down.svg";
 import navDownImage from '../images/icon-arrow-up.svg';
 function Navigation() {
-  // function show() {
-  //   const navDisplay = document.querySelector('#navDisplay');
-  //   navDisplay.style.display = 'block';
-  //   const downArrow = document.querySelector('#downArrow');
-  //   downArrow.setAttribute('src', navDownImage);
-  // }
+  function show() {
+    const navDisplay = document.querySelector('#navDisplay');
+    navDisplay.style.display = 'block';
+    const downArrow = document.querySelector('#downArrow');
+    downArrow.setAttribute('src', navDownImage);
+  }
   return (
     <ul>
       <li>
