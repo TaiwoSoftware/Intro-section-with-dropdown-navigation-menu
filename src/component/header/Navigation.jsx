@@ -1,19 +1,22 @@
-import React, {useState} from "react";
+import {useState} from 'react';
 import navImage from "../images/icon-arrow-down.svg";
 import navDownImage from '../images/icon-arrow-up.svg';
+import NavContainer from './NavContainer';
 function Navigation() {
-  function show() {
-    const navDisplay = document.querySelector('#navDisplay');
-    navDisplay.style.display = 'block';
-    const downArrow = document.querySelector('#downArrow');
-    downArrow.setAttribute('src', navDownImage);
-  }
+  const [showFeatureDropdown, setShowFeatureDropdown] = useState(false)
   return (
     <ul>
-      <li>
+      <li onClick={() => setShowFeatureDropdown(!showFeatureDropdown)}>
         Features
-        <img src={navImage} alt="nav-image" onClick={show} className="nav-image" id="downArrow" />
+        {showFeatureDropdown ? (
+          <img src={navImage} alt="nav-image"  className="nav-image" id="downArrow" />
+        ):(
+          <img src={navDownImage} alt="nav-image"  className="nav-image" id="downArrow" />
+        )}
       </li>
+      {showFeatureDropdown &&(
+        <NavContainer />
+      )}
       <li>
         Company
         <img src={navImage} alt="nav-image" className="nav-image" />
