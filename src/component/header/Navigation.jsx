@@ -4,14 +4,15 @@ import navDownImage from '../images/icon-arrow-up.svg';
 import NavContainer from './NavContainer';
 function Navigation() {
   const [showFeatureDropdown, setShowFeatureDropdown] = useState(false)
+  const toggle = () => setShowFeatureDropdown(!showFeatureDropdown)
   return (
     <ul>
-      <li onClick={() => setShowFeatureDropdown(!showFeatureDropdown)}>
+      <li onClick={toggle}>
         Features
         {showFeatureDropdown ? (
-          <img src={navImage} alt="nav-image"  className="nav-image" id="downArrow" />
-        ):(
           <img src={navDownImage} alt="nav-image"  className="nav-image" id="downArrow" />
+        ):(
+          <img src={navImage} alt="nav-image"  className="nav-image" id="downArrow" />
         )}
       </li>
       {showFeatureDropdown &&(
